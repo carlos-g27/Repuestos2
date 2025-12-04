@@ -1,0 +1,26 @@
+/* style.css */
+
+/* Sección Hero (Encabezado principal) */
+.hero-section {
+    background-color: #333; /* Puedes cambiar esto por una imagen de fondo después */
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+}
+
+/* Tarjetas de Repuestos */
+.card-repuesto {
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+/* Efecto al pasar el mouse por encima de una tarjeta */
+.card-repuesto:hover {
+    transform: scale(1.02); /* Crece un poquito */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* Sombra más pronunciada */
+}
+
+/* Ajustes generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
